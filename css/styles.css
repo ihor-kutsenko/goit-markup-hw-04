@@ -415,16 +415,17 @@ img {
 }
 
 .clients-links {
+  display: flex;
+  align-items: center;
   width: 170px;
   height: 92px;
   padding: 16px 32px;
   border: 1px solid var(--icon-fill-color);
-  box-sizing: border-box;
+  fill: var(--icon-fill-color);
   border-radius: 4px;
 }
 
 .clients-icon {
-  fill: var(--icon-fill-color);
   width: 106px;
   height: 60px;
 }
@@ -432,12 +433,9 @@ img {
 .clients-links:hover,
 .clients-links:focus {
   border: 1px solid var(--accent-color);
-}
-
-.clients-icon:hover,
-.clients-icon:focus {
   fill: var(--accent-color);
 }
+
 /* /END OUR CLIENTS */
 
 /*start footer */
