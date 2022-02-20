@@ -295,7 +295,9 @@ img {
 }
 
 .specifics-container {
-  padding: 25px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
@@ -417,9 +419,9 @@ img {
 .clients-links {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
   border: 1px solid var(--icon-fill-color);
   fill: var(--icon-fill-color);
   border-radius: 4px;
